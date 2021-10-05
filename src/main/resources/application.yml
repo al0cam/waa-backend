@@ -1,0 +1,11 @@
+micronaut:
+  server:
+    cors:
+      enabled: true
+  application:
+    name: waaBackend
+  router:
+    static-resources:
+      client:
+        paths: classpath:webapp
+        mapping: /**
